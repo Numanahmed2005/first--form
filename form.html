@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2> university admission form</h2>
+    <form>
+        <label for="name">your name
+            <input id="name" type="text" placeholder="your name"
+        </label>
+        <label for="email"> your email<input id="email" type="email" placeholder="your email"
+        </label>
+        
+    </form>
+ <fieldset>
+    <legend> pick one subject</legend>
+    <legend>
+        <label for="science">
+            <input type="radio" name="subject" id="science">
+            science
+        </label>
+    </legend>
+    <legend>
+        <label for="arts">
+            <input type="radio" name="subject" id="arts">
+            arts
+        </label>
+        <legend>
+            <label for="commerce">
+                <input type="radio" name="subject" id="commerce">
+                commerce
+            </label>
+        </legend>
+    </legend>
+ </fieldset>
+ <fieldset>
+    <legend> why  you want admission in this university</legend>
+    <textarea name="" id="" cols="60" rows="3"></textarea>
+ </fieldset>
+ <input type="reset" value="reset">
+ <input type="submit" value="submit">
+</body>
+</html>
